@@ -41,6 +41,7 @@
 						/*url: "https://netzero.world/", /* <- write the url you would like to link (or leave as "") */
 						description: "Don't miss out on trips with your friends. Plan with us", /*<- write here a description of the card */
 						sub_description: "🏆Personal Project", /*<- write here a sub-description if you like (else leave it as "") */
+						stack: "C#", "Typescript", "Ionic framework",
 					},
 
 					/* 👇👇👇 These are all the same - change them similar to the one above */
@@ -74,6 +75,7 @@
 						/*url: "https://gardeniatech.com",*/
 						description: "Junior Software Engineer",
 						sub_description: "Collaborative development of an open source project ",
+						stack: "Python", "Typescript", "Ionic framework", "Angular",
 					},
 					{
 						name: "Smartcode Technologies Limited",
@@ -81,6 +83,7 @@
 						url: "https://smartcode.co.ke",
 						description: "Junior Software Engineer",
 						sub_description: "Development of web application programming interface and web applications.",
+						stack: "C#", "ASPNET", "ASPNET.CORE", "MySQL","Docker","Kubernetes",
 					},
 					{
 						name: "Kenya Power and Lighting Company",
@@ -88,6 +91,7 @@
 						url: "https://kplc.co.ke",
 						description: "Attachee",
 						sub_description: "Formatting of PCs and installation of different versions of the Windows operating system",
+						stack: "Microsoft Office",
 					},
 				]
 			},
@@ -320,6 +324,8 @@
 						}
 
 					<div style="color:white; margin-top: 10%; font-size:${proj.sub_description.length > 40 ? '10px' : '14px'};">${proj.sub_description
+						}
+					<div style="color:white; margin-top: 10%; font-size:${proj.sub_description.length > 40 ? '10px' : '14px'};">${proj.stack
 						}
 
 					</div> </div > </a > `
